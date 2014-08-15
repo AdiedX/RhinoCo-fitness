@@ -15,6 +15,12 @@
     <link href="styles/animate-custom.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <style>
+      .rhino-logo {
+        font-family: 'rhinocoregular';
+        font-weight: normal;
+      }
+    </style>
 
     <script src="scripts/jquery.min.js"></script>
     <script type="text/javascript" src="scripts/modernizr.custom.js"></script>
@@ -28,7 +34,7 @@
     <!-- endbuild -->
 </head>
 
-<body ng-app="rhinoApp">
+<body ng-app="rhinoApp" data-spy="scroll" data-offset="0" data-target="#navbar-main">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -40,10 +46,10 @@
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span style="font-family: rhinocoregular; font-size:60px; color:#3498db;">&#114;</span>
+                        <span class="rhino-logo" style="font-size:60px; color:#3498db;">&#114;</span>
                     </button>
                     <a class="navbar-brand hidden-xs hidden-sm" href="#home">
-                        <span style="font-family: rhinocoregular; font-size:50px; color:#3498db;">&#114;</span>
+                        <span class="rhino-logo" style="font-size:50px; color:#3498db;">&#114;</span>
                     </a>
                 </div>
                 <div class="navbar-collapse collapse">
