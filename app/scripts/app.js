@@ -15,12 +15,22 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/main.html'
       })
       .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+        templateUrl: 'views/about.html'
+      })
+      .when('/media', {
+      	templateUrl: 'views/media.html'
+      })
+      .when('/projects', {
+      	templateUrl: 'views/projects.html'
+      })
+      .when('/nutrition', {
+      	templateUrl: 'views/nutrition.html'
+      })
+      .when('/management', {
+      	templateUrl: 'views/management'
       })
       .otherwise({
         redirectTo: '/'
