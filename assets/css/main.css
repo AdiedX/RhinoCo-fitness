@@ -279,7 +279,7 @@ a:after {
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -295,9 +295,7 @@ a:after {
 	color:#ffffff;
 	margin-top: 90px;
 	padding-bottom: 30px;
-	letter-spacing: 8px;
 	font-size: 100px;
-	font-weight: bold;
 	text-shadow: 2px 2px 2px #000;
 }
 
@@ -393,7 +391,7 @@ a:after {
     background-size: cover;
 
     background-attachment: relative;
-    
+
     text-align: center;
 }
 
@@ -516,7 +514,7 @@ a:after {
 	font-weight: 700;
 	text-align: left;
 	letter-spacing: 2px;
-	
+
 }
 
 .grid figcaption a {
@@ -591,7 +589,7 @@ a:after {
 	background: #2b2b2b;
 	padding-right: 0px;
 	padding-left: 0px;
-	
+
 }
 
 .blog-bg h4 {
