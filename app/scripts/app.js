@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name scaffoldApp
+ * @name rhinoApp
  * @description
  * # scaffoldApp
  *
  * Main module of the application.
  */
 angular
-  .module('scaffoldApp', [
+  .module('rhinoApp', [
     'ngRoute'
   ])
   .config(function ($routeProvider) {

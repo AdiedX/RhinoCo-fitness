@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name scaffoldApp.controller:MainCtrl
+ * @name rhinoApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the scaffoldApp
+ * Controller of the rhinoApp
  */
-angular.module('scaffoldApp')
+angular.module('rhinoApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
