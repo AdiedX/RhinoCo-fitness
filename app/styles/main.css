@@ -292,8 +292,7 @@ a:before, a:after {
     display: block;
     overflow: hidden;
     position: relative;
-    background: #0077BD;
-    /* height:670px !important */
+    background: #ccc;
 }
 
 .about-top {
@@ -327,6 +326,11 @@ p.more a span {
   line-height: 3.2em;
   letter-spacing: 0.1em;
 }
+
+p.more a:hover {
+    background: #f89600
+}
+
 /* ==========================================================================
    Box Sections
    ========================================================================== */
