@@ -104,12 +104,15 @@ margin-left: -15px;
 }
 
 .navbar {
-  background-color: rgba(218,218,218,0.2);
+/*  background-color: rgba(218,218,218,0.8);*/
+  background-color: #555;
+  padding: 10px 0;
+  font-weight: 600;
 }
 
-.navbar > .container {
+/*.navbar > .container {
   padding: 20px 0;
-}
+}*/
 
 .navbar-default {
 border-color: transparent;
@@ -234,7 +237,8 @@ blockquote cite:before {
 
 /* Links */
 a {
-    color: #3498db;
+    /*color: #3498db;*/
+    color: #eee;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -246,7 +250,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #c0392b;
+/*    color: #c0392b;*/
     text-decoration: none;
     outline: 0;
 }
