@@ -131,8 +131,6 @@ border: 0px solid transparent;
 	color: white;
 }
 
-
-
 hr {
     position: relative;
     border: none;
@@ -354,6 +352,14 @@ a:after {
    Box Sections
    ========================================================================== */
 
+.latest-news {
+  text-align: center;
+}
+
+.latest-news > img {
+  width: 100%;
+}
+
 .white h1 {
 	padding-top: 35px;
 }
@@ -410,7 +416,8 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-	background-image: url('../img/bg/divider1.jpg')
+	/*background-image: url('../img/bg/divider1.jpg')*/
+  background-color: #ccc;
 }
 
 .divider2 {
