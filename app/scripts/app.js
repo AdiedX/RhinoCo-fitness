@@ -10,7 +10,8 @@
  */
 angular
   .module('rhinoApp', [
-    'ngRoute'
+    'ngRoute',
+    'wu.masonry'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -24,7 +25,8 @@ angular
       	templateUrl: 'views/media.html'
       })
       .when('/projects', {
-      	templateUrl: 'views/projects.html'
+      	templateUrl: 'views/projects.html',
+        controller: 'ProjectCtrl'
       })
       .when('/nutrition', {
       	templateUrl: 'views/nutrition.html'

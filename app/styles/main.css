@@ -2,6 +2,12 @@
    Base Styles and Bootstrap Modifications
    ========================================================================== */
 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html, button, input, select, textarea {
   color: #222;
 }
@@ -287,14 +293,14 @@ a:before, a:after {
   color: white;
 }
 /* ABOUT PAGE */
-#careers {
-    width: 100%;
-    display: block;
-    overflow: hidden;
-    position: relative;
-    background: #ccc;
-}
 
+#careers {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  background: #ccc;
+}
 .about-top {
   padding-top: 4em;
 }
@@ -319,16 +325,28 @@ p.more a {
   -ms-transition: background 0.5s ease-in;
   transition: background 0.5s ease-in;
 }
-
 p.more a span {
   width: 100%;
   text-shadow: 0 0 0 #FFF;
   line-height: 3.2em;
   letter-spacing: 0.1em;
 }
-
 p.more a:hover {
-    background: #f89600
+  background: #f89600
+}
+
+/* PROJECTS PAGE */
+
+#project-page {
+    background-color: #ccc;
+
+}
+.masonry-brick {
+    margin: 0 auto;
+    max-width: 40%;
+}
+.masonry-brick img {
+    width: 100%;
 }
 
 /* ==========================================================================
