@@ -296,6 +296,10 @@ a:before, a:after {
   margin-left: 10px;
 }
 /* ABOUT PAGE */
+#contact .icon {
+  color: #000;
+  margin-right: 15px;
+}
 
 #careers {
   width: 100%;
