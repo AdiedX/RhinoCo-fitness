@@ -356,24 +356,22 @@ p.more a span {
 p.more a:hover {
   background: #f89600
 }
-
 /* PROJECTS PAGE */
+
 #project-page {
   background-color: #fff;
 }
-
 .project-masonry {
   margin: 0 auto;
 }
-
 .masonry-brick {
-  /*    margin: 0 auto;
-    border: 1px solid #222;
-    max-width: 80%;*/
-/*  width: 250px;
+/*  margin: 0 auto;*/
+  border: 1px solid #222;
+/*  max-width: 80%;*/
+  /*  width: 250px;
   height: 500px;*/
-/*  max-width: 375px;*/
-  float: left;
+  /*  max-width: 375px;*/
+/*  float: left;*/
 }
 .masonry-brick img {
   max-width: 300px;

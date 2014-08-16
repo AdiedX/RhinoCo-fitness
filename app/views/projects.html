@@ -5,11 +5,16 @@
   <hr>
 
   <div class="container">
-    <div class="project-masonry" masonry="{columnWidth: 100, gutter: 5, transitionDuration: '.9s', hiddenStyle: {opacity: .001, transform: 'scale(0.01)', transform: 'rotate(0deg)'}, visibleStyle: {opacity: 1}, isFitWidth: true }">
+    <div class="project-masonry" masonry="{columnWidth: 300, gutter: 5, transitionDuration: '.9s', hiddenStyle: {opacity: .001, transform: 'scale(0.01)', transform: 'rotate(0deg)'}, visibleStyle: {opacity: 1}, isFitWidth: true }">
       <div class="masonry-brick" ng-repeat="pic in picts">
         <!--         {{singer}} -->
         <img ng-src="{{ pic.src }}" alt="a singer">
       </div>
+
+<!--       <div class="masonry-brick" ng-repeat="pic in picts">
+        <img ng-src="/images/dddd.jpg" alt="a singer">
+      </div> -->
+
     </div>
   </div>
 
