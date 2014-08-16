@@ -1,14 +1,16 @@
 <div id="project-page" class="about-top">
 
+  <br>
+  <h1 class="centered">PROJECTS</h1>
+  <hr>
 
-
-<div class="pad-sides" masonry="{columnWidth: 100, gutter: 5, transitionDuration: '.9s', hiddenStyle: {opacity: .001, transform: 'scale(0.01)', transform: 'rotate(200deg)'}, visibleStyle: {opacity: 1}}">
-    <div class="masonry-brick" ng-repeat="pic in picts">
-<!--         {{singer}} -->
-       <img ng-src="{{ pic.src }}" alt="a singer">
+  <div class="container">
+    <div class="project-masonry" masonry="{columnWidth: 100, gutter: 5, transitionDuration: '.9s', hiddenStyle: {opacity: .001, transform: 'scale(0.01)', transform: 'rotate(0deg)'}, visibleStyle: {opacity: 1}, isFitWidth: true }">
+      <div class="masonry-brick" ng-repeat="pic in picts">
+        <!--         {{singer}} -->
+        <img ng-src="{{ pic.src }}" alt="a singer">
+      </div>
     </div>
-
-
-</div>
+  </div>
 
 </div>

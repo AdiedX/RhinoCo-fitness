@@ -4,10 +4,9 @@
 
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 html, button, input, select, textarea {
   color: #222;
 }
@@ -104,13 +103,15 @@ body {
   padding: 0;
   margin: 0;
   margin-right: 15px;
-/*  margin-bottom: 8px;
+  /*  margin-bottom: 8px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;*/
 }
-
+.img-responsive {
+  width: 100%;
+}
 .navbar-default {
   border-color: transparent;
   background-color: rgba(218, 218, 218, 0.2);
@@ -309,11 +310,11 @@ a:before, a:after {
   margin-left: 10px;
 }
 /* ABOUT PAGE */
+
 #contact .icon {
   color: #000;
   margin-right: 15px;
 }
-
 #careers {
   width: 100%;
   display: block;
@@ -356,19 +357,27 @@ p.more a:hover {
 }
 
 /* PROJECTS PAGE */
-
 #project-page {
-    background-color: #ccc;
-
+  background-color: #fff;
 }
+
+.project-masonry {
+  margin: 0 auto;
+}
+
 .masonry-brick {
-    margin: 0 auto;
-    max-width: 40%;
+  /*    margin: 0 auto;
+    border: 1px solid #222;
+    max-width: 80%;*/
+/*  width: 250px;
+  height: 500px;*/
+/*  max-width: 375px;*/
+  float: left;
 }
-.masonry-brick images {
-    width: 100%;
+.masonry-brick img {
+  max-width: 300px;
+  width: 100%;
 }
-
 /* ==========================================================================
    Box Sections
    ========================================================================== */
