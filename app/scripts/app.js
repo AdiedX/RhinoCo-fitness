@@ -32,7 +32,7 @@ angular
       	templateUrl: 'views/nutrition.html'
       })
       .when('/management', {
-      	templateUrl: 'views/management'
+      	templateUrl: 'views/management.html'
       })
       .otherwise({
         redirectTo: '/'

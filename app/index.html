@@ -19,6 +19,7 @@
     .rhino-logo {
         font-family: 'rhinocoregular';
         font-weight: normal;
+        color: #999;
     }
     </style>
 
@@ -34,7 +35,7 @@
     <!-- endbuild -->
 </head>
 
-<body ng-app="rhinoApp" data-spy="scroll" data-offset="0" data-target="#navbar-main">
+<body ng-app="rhinoApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -46,10 +47,13 @@
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="rhino-logo" style="font-size:50px; color:#3498db;">&#114;</span>
+                        <span class="rhino-logo" style="font-size:50px">&#114;</span>
                     </button>
-                    <a class="navbar-brand hidden-xs hidden-sm" href="#home">
-                        <span class="rhino-logo" style="font-size:50px; color:#3498db;">&#114;</span>
+                    <a class="navbar-brand hidden-xs hidden-sm" href="/">
+                        <span class="rhino-logo" style="font-size:50px">&#114;</span>
+                    </a>
+                    <a class="navbar-brand hidden-md hidden-lg" href="/">
+                      RHINOCO FITNESS
                     </a>
                 </div>
                 <div class="navbar-collapse collapse">
@@ -108,7 +112,6 @@
     <script type="text/javascript" src="scripts/retina.js"></script>
     <script type="text/javascript" src="scripts/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="scripts/smoothscroll.js"></script>
-    <script type="text/javascript" src="scripts/jquery-func.js"></script>
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
