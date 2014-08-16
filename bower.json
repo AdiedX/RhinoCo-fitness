@@ -5,7 +5,9 @@
     "angular": "1.2.16",
     "json3": "~3.3.1",
     "es5-shim": "~3.1.0",
-    "angular-route": "1.2.16"
+    "angular-route": "1.2.16",
+    "masonry": "~3.1.5",
+    "angular-masonry": "~0.9.0"
   },
   "devDependencies": {
     "angular-mocks": "1.2.16",
