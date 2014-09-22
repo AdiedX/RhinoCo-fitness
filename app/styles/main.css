@@ -6,6 +6,8 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-weight: 400;
+  font-family: "Maven Pro";
 }
 html, button, input, select, textarea {
   color: #222;
@@ -13,6 +15,8 @@ html, button, input, select, textarea {
 body {
   font-size: 1em;
   line-height: 1.4;
+  font-family: "Open Sans";
+
 }
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -64,7 +68,7 @@ html, body {
   height: 100%;
 }
 body {
-  font-family: "Lato";
+  font-family: "Open Sans";
   font-weight: 300;
   font-size: 16px;
   color: #555;
@@ -97,6 +101,20 @@ body {
   padding: 20px 0;
 }*/
 
+
+/* class found in index.html */
+.navbar-icon-label{
+  float: right;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  font-size: 1.7em;
+  font-weight: 400;
+}
+
+.navbar-logo{
+  margin-left: -25px;
+}
+
 .navbar-toggle {
   position: relative;
   float: right;
@@ -124,6 +142,12 @@ body {
   background-color: #16a085;
   color: white;
 }
+
+.navbar-nav > li{
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
 hr {
   position: relative;
   border: none;
@@ -146,16 +170,32 @@ a images {
 /* Titles */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway";
+  font-family: "Open Sans";
   font-weight: 300;
   color: #333;
 }
-/* Paragraph & Typographic */
 
-p {
-  line-height: 28px;
-  margin-bottom: 25px;
+h1.centered{
+  margin-bottom: 30px;
 }
+
+/*===========================*/
+/* Paragraph & Typographic */
+/*===========================*/
+
+.latest-news{
+  padding: 1%;
+  border-bottom: 1px solid #EEE;
+  border-left: 1px solid #EEE;
+}
+
+.latest-news p{
+  line-height: 28px;
+  margin-top: 25px;
+  /*margin-bottom: 30px;*/
+  font-size: 1.18em;
+}
+
 .centered {
   text-align: center;
 }
@@ -172,7 +212,7 @@ em {
 pre {
   background: #ebebeb;
   border: none;
-  font-family: "Monaco";
+  font-family: "Open Sans";
   font-size: 16px;
   color: #666;
   padding: 20px;
@@ -258,14 +298,14 @@ a:before, a:after {
 }
 #headerwrap h1 {
   color: #ffffff;
-  margin-top: 90px;
-  padding-bottom: 30px;
+  margin-top: 70px;
+  padding-bottom: 10px;
   font-size: 100px;
   text-shadow: 2px 2px 2px #000;
 }
 #headerwrap p {
   color: #ffffff;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
   text-align: center;
   line-height: 40px;
@@ -273,11 +313,16 @@ a:before, a:after {
   margin-left: 15px;
   text-shadow: 1px 1px 1px #000;
 }
+
+#headerwrap #header-over-video{
+  font-size: 3.6em;
+}
+
 .greywrap {
-  background: #f5f5f5;
-  margin-top: 0px;
-  padding-top: 40px;
-  border-bottom: 1px solid #ddd;
+  background: #2f3e45;
+  /*margin-top: 40px;*/
+  padding-top: 45px;
+  /*border-bottom: 1px solid #ddd;*/
   text-align: center;
 }
 .greywrap .callout {
@@ -289,12 +334,18 @@ a:before, a:after {
   letter-spacing: 1px;
   padding-top: 15px;
   padding-bottom: 15px;
+  font-weight: 400;
+  color: #DDD;
+  font-size: 1.18em;
+}
+.greywrap h1{
+  color: #DDD;
 }
 .greywrap .icon {
   font-size: 60px;
   line-height: 30px;
   margin-bottom: 10px;
-  color: #333;
+  color: #DDD;
 }
 #footerwrap {
   background: #2b2b2b;
@@ -402,6 +453,17 @@ p.more a:hover {
 .latest-news > images {
   width: 100%;
 }
+
+#image-miami-lakes, #image-lifting-weights{
+  height: 300px;
+  width: 500px;
+}
+
+#image-nutriforce, #image-crossfit, #image-south-east{
+  height: 200px;
+  width: 500px;
+}
+
 .white h1 {
   padding-top: 35px;
 }
@@ -494,7 +556,7 @@ p.more a:hover {
   background: #222;
 }
 .service-active p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding-top: 10px;
 }
 .service-content {
