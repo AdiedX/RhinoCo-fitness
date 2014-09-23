@@ -9,7 +9,11 @@ app.set('views', path.join(__dirname, '/app/views'));
 app.set('view engine', 'html');
 app.set('view cache', false);
 
+    // app.use(express.static(path.join(config.root, 'app')));
+    
+
 app.use(express.static(__dirname + '/app'));
+app.set('views', '/app/views');
 // app.use(express.static(__dirname + '/app/views'));
 
 app.use(logger('dev'));
