@@ -28,8 +28,8 @@ angular
       	templateUrl: 'views/projects.html',
         controller: 'ProjectCtrl'
       })
-      .when('/nutrition', {
-      	templateUrl: 'views/nutrition.html'
+      .when('/blog', {
+      	templateUrl: 'views/blog.html'
       })
       .when('/management', {
       	templateUrl: 'views/management.html'
