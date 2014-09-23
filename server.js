@@ -14,5 +14,5 @@ app.use(logger('dev'));
 app.listen(process.env.PORT || 9000);
 
 app.get('/', function(req, res){
-	res.render('app/index');
+	res.render('index');
 });
