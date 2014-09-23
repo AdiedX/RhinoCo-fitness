@@ -5,8 +5,7 @@
     "express": "^4.9.4",
     "morgan": "^1.3.1",
     "nodemon": "^1.2.1",
-    "path": "^0.4.9",
-    "main": "server.js"
+    "path": "^0.4.9"
   },
   "devDependencies": {
     "grunt": "^0.4.1",
