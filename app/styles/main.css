@@ -405,14 +405,14 @@ div#description-one p{
   padding: 15px 15px 30px 30px;
 }
 
-.upcoming-section-two{
+/*.upcoming-section-two{
   background: -webkit-linear-gradient(left, 
                 rgba(0,0,0,0.65) 0%, 
                 rgba(0,0,0,0) 20%,
                 rgba(0,0,0,0) 80%,
                 rgba(0,0,0,0.65) 100%;
 }
-
+*/
 #footerwrap {
   background: #2b2b2b;
   margin-top: 0px;
@@ -520,7 +520,16 @@ p.more a:hover {
 .latest-news > images {
   width: 100%;
 }
-
+  #image-miami-lakes, #image-lifting-weights{
+    height: 400px;
+    width: 650px;
+    padding: 2%;
+  }
+  #image-nutriforce, #image-crossfit, #image-south-east{
+    height: 300px;
+    width: 450px;
+    padding: 5%;
+  } 
 @media (max-width: 2400px ){
   #image-miami-lakes, #image-lifting-weights{
     height: 400px;
