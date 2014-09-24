@@ -365,6 +365,7 @@ a:before, a:after {
 
 /* MAIN PAGE */
 
+/* Upcoming Projects Section One */
 .upcoming-projects-bar{
   text-align: center;
   padding: 5%;
@@ -377,17 +378,39 @@ a:before, a:after {
   height: 650px;
 } 
 
-.upcoming-section-one div#description-one{
+#description-one{
   float: right;
   background-color: black;
   width: 50%;
   height: 650px;
+  margin: 0 auto;
 }
 
-div#description-one{
+div#description-one p{
+  font-size: 30px;
+  color: #BBB;
   text-align: center;
-  padding-top: 12%;
-  padding-bottom: 12%;
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+
+.learn-more{
+  margin: 0px auto;
+  height: 60px;
+  width: 500px;
+  border: 2px solid #BBB;
+  color: #BBB;
+  text-align: center;
+  font-size: 1.18em;
+  padding: 15px 15px 30px 30px;
+}
+
+.upcoming-section-two{
+  background: -webkit-linear-gradient(left, 
+                rgba(0,0,0,0.65) 0%, 
+                rgba(0,0,0,0) 20%,
+                rgba(0,0,0,0) 80%,
+                rgba(0,0,0,0.65) 100%;
 }
 
 #footerwrap {
@@ -500,42 +523,45 @@ p.more a:hover {
 
 @media (max-width: 2400px ){
   #image-miami-lakes, #image-lifting-weights{
-    height: 450px;
+    height: 400px;
     width: 650px;
-    /*clear: both;*/
-    padding: 5%;
+    padding: 2%;
   }
   #image-nutriforce, #image-crossfit, #image-south-east{
     height: 300px;
     width: 450px;
     padding: 5%;
   } 
-/*  .container{
-    width: 1600px;
-  }*/
+  .container{
+    width: 1400px;
+  }
 }
 
-@media( max-width: 1280px){
+@media( max-width: 1400px){
+  #image-miami-lakes, #image-lifting-weights{
+    height: 350px;
+    width: 500px;
+    padding: 2%;
+    max-width:100%;
+    max-height:100%;
+  }
+   
   #image-nutriforce, #image-crossfit, #image-south-east{
     height: 250px;
     width: 350px;
-  }
-
-  #image-miami-lakes, #image-lifting-weights{
-    height: 250px;
-    width: 350px;
-    /*clear: both;*/
     padding: 5%;
+    max-width:100%;
+    max-height:100%;
   }
 
   #div-nutriforce p, #div-crossfit p, #div-south-east p{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
-/*  .container{
+  .container{
     width: 1000px;
-  }*/
+  }
 }
 
 @media( max-width: 950px){
@@ -556,9 +582,9 @@ p.more a:hover {
     padding-right: 20px;
   }
 
-/*  .container{
-    width: 1000px;
-  }*/
+  .container{
+    width: 800px;
+  }
 }
 
 
