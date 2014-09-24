@@ -17,8 +17,6 @@ html, button, input, select, textarea {
 body {
   font-size: 1em;
   line-height: 1.4;
-  font-family: "Open Sans";
-
 }
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -733,6 +731,33 @@ div#description-one p{
   .learn-more-three{
     font-size: 0.7em;
   }
+}
+
+/*---------------------*/
+/* RHINOCO MANAGEMENT BAR */
+/*
+.bar-fix{
+  clear: both;
+  height: 300px;
+  width: 100%;
+  background-color: #0063af;
+}*/
+
+.management-bar{
+  text-align: center;
+  padding: 5%;
+  padding-top: 50px;
+  background-color: #0063af;
+  font-size: 1em;
+  color: white;
+}
+
+.management-bar h1, .management-bar li{
+  color: white;
+}
+
+.management-bar p{
+  font-size: 1.20em;
 }
 
 /*---------------------*/
