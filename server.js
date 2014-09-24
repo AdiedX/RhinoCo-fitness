@@ -4,7 +4,7 @@ var express = require('express');
 var logger = require('morgan');
 var path = require('path');
 var app = express();
-
+var env = app.get('env');
 app.use(express.static(__dirname + '/app'));
 app.set('views', 'app/views');
 
