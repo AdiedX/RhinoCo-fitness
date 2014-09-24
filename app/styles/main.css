@@ -351,7 +351,7 @@ a:before, a:after {
   padding-bottom: 15px;
   font-weight: 400;
   color: #DDD;
-  font-size: 1.18em;
+  font-size: 1em;
 }
 .greywrap h1{
   color: #DDD;
@@ -370,24 +370,24 @@ a:before, a:after {
   text-align: center;
   padding: 5%;
   background-color: #f89600;
-  font-size: 1.18em;
+  font-size: 1em;
 }
 
 .upcoming-section-one img{
   width: 50%;
-  height: 650px;
+  height: 520px;
 } 
 
 #description-one{
   float: right;
   background-color: black;
   width: 50%;
-  height: 650px;
+  height: 520px;
   margin: 0 auto;
 }
 
 div#description-one p{
-  font-size: 30px;
+  font-size: 20px;
   color: #BBB;
   text-align: center;
   padding-top: 200px;
@@ -397,11 +397,11 @@ div#description-one p{
 .learn-more-one{
   margin: 0px auto;
   height: 60px;
-  width: 500px;
+  width: 200px;
   border: 2px solid #BBB;
   color: #BBB;
   text-align: center;
-  font-size: 1.18em;
+  font-size: 1em;
   padding: 15px 15px 30px 30px;
 }
 /*---------------------*/
@@ -409,7 +409,7 @@ div#description-one p{
 /* Upcoming Projects Section Two*/
 
 .upcoming-section-two img{
-  height: 600px;
+  height: 520px;
   width: 60%;
   float: right;
 }
@@ -418,11 +418,11 @@ div#description-one p{
   float: left;
   background-color: #7FFF00;
   width: 40%;
-  height: 600px;
+  height: 520px;
 }
 
 #description-two p{
-  font-size: 30px;
+  font-size: 20px;
   color: #111;
   text-align: center;
   padding-top: 200px;
@@ -432,11 +432,11 @@ div#description-one p{
 .learn-more-two{
   margin: 0px auto;
   height: 60px;
-  width: 500px;
+  width: 200px;
   border: 2px solid #111;
   color: #111;
   text-align: center;
-  font-size: 1.18em;
+  font-size: 1.15em;
   padding: 15px 15px 30px 30px;  
 }
 
@@ -445,7 +445,7 @@ div#description-one p{
 /* Upcoming Projects Section Three*/
 
 .upcoming-section-three img{
-  height: 600px;
+  height: 520px;
   width: 55%;
   float: left;
 }
@@ -454,11 +454,11 @@ div#description-one p{
   float: right;
   background-color: #CDE7F0;
   width: 45%;
-  height: 600px;
+  height: 520px;
 }
 
 #description-three p{
-  font-size: 30px;
+  font-size: 20px;
   color: #111;
   text-align: center;
   padding-top: 200px;
@@ -468,11 +468,11 @@ div#description-one p{
 .learn-more-three{
   margin: 0px auto;
   height: 60px;
-  width: 500px;
+  width: 200px;
   border: 2px solid #111;
   color: #111;
   text-align: center;
-  font-size: 1.18em;
+  font-size: 1.15em;
   padding: 15px 15px 30px 30px;  
 }
 
@@ -634,7 +634,7 @@ p.more a:hover {
   }
 
   .container{
-    width: 1000px;
+    width: 1200px;
   }
 }
 
@@ -657,7 +657,7 @@ p.more a:hover {
   }
 
   .container{
-    width: 800px;
+    width: 1000px;
   }
 }
 
