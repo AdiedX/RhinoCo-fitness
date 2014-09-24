@@ -394,7 +394,7 @@ div#description-one p{
   padding-bottom: 20px;
 }
 
-.learn-more{
+.learn-more-one{
   margin: 0px auto;
   height: 60px;
   width: 500px;
@@ -404,15 +404,80 @@ div#description-one p{
   font-size: 1.18em;
   padding: 15px 15px 30px 30px;
 }
+/*---------------------*/
 
-/*.upcoming-section-two{
-  background: -webkit-linear-gradient(left, 
-                rgba(0,0,0,0.65) 0%, 
-                rgba(0,0,0,0) 20%,
-                rgba(0,0,0,0) 80%,
-                rgba(0,0,0,0.65) 100%;
+/* Upcoming Projects Section Two*/
+
+.upcoming-section-two img{
+  height: 600px;
+  width: 60%;
+  float: right;
 }
-*/
+
+#description-two{
+  float: left;
+  background-color: #7FFF00;
+  width: 40%;
+  height: 600px;
+}
+
+#description-two p{
+  font-size: 30px;
+  color: #111;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+
+.learn-more-two{
+  margin: 0px auto;
+  height: 60px;
+  width: 500px;
+  border: 2px solid #111;
+  color: #111;
+  text-align: center;
+  font-size: 1.18em;
+  padding: 15px 15px 30px 30px;  
+}
+
+/*---------------------*/
+
+/* Upcoming Projects Section Three*/
+
+.upcoming-section-three img{
+  height: 600px;
+  width: 55%;
+  float: left;
+}
+
+#description-three{
+  float: right;
+  background-color: #CDE7F0;
+  width: 45%;
+  height: 600px;
+}
+
+#description-three p{
+  font-size: 30px;
+  color: #111;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+
+.learn-more-three{
+  margin: 0px auto;
+  height: 60px;
+  width: 500px;
+  border: 2px solid #111;
+  color: #111;
+  text-align: center;
+  font-size: 1.18em;
+  padding: 15px 15px 30px 30px;  
+}
+
+/*---------------------*/
+
 #footerwrap {
   background: #2b2b2b;
   margin-top: 0px;
