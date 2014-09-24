@@ -387,7 +387,7 @@ a:before, a:after {
 }
 
 div#description-one p{
-  font-size: 20px;
+  font-size: 30px;
   color: #BBB;
   text-align: center;
   padding-top: 200px;
@@ -401,9 +401,96 @@ div#description-one p{
   border: 2px solid #BBB;
   color: #BBB;
   text-align: center;
-  font-size: 1em;
-  padding: 15px 15px 30px 30px;
+  font-size: 1.25em;
+  padding: 15px 15px;
 }
+
+@media(max-width: 2400px){
+  .upcoming-section-one img{
+    width: 50%;
+    height: 650px;
+  } 
+
+  #description-one{
+    float: right;
+    background-color: black;
+    width: 50%;
+    height: 650px;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 1600px){
+  .upcoming-section-one img{
+    width: 50%;
+    height: 520px;
+  } 
+
+  #description-one{
+    float: right;
+    background-color: black;
+    width: 50%;
+    height: 520px;
+    margin: 0 auto;
+  }
+   div#description-one p{
+    font-size: 18px;
+  }
+
+  .learn-more-one{
+    font-size: 1em;
+    height: 40px;
+    width: 150px;
+    padding: 10px 10px;
+  } 
+}
+
+@media(max-width: 1000px){
+  .upcoming-section-one img{
+    width: 50%;
+    height: 450px;
+  } 
+
+  #description-one{
+    float: right;
+    background-color: black;
+    width: 50%;
+    height: 450px;
+    margin: 0 auto;
+  }
+
+  div#description-one p{
+    font-size: 15px;
+  }
+
+  .learn-more-one{
+    font-size: 0.8em;
+  }
+}
+
+@media(max-width: 750px){
+  .upcoming-section-one img{
+    width: 50%;
+    height: 300px;
+  } 
+
+  #description-one{
+    float: right;
+    background-color: black;
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  div#description-one p{
+    font-size: 12px;
+  }
+
+  .learn-more-one{
+    font-size: 0.7em;
+  }
+}
+
 /*---------------------*/
 
 /* Upcoming Projects Section Two*/
@@ -422,7 +509,7 @@ div#description-one p{
 }
 
 #description-two p{
-  font-size: 20px;
+  font-size: 30px;
   color: #111;
   text-align: center;
   padding-top: 200px;
@@ -438,6 +525,92 @@ div#description-one p{
   text-align: center;
   font-size: 1.15em;
   padding: 15px 15px 30px 30px;  
+}
+
+@media(max-width: 2400px){
+  .upcoming-section-two img{
+    width: 60%;
+    height: 650px;
+  } 
+
+  #description-two{
+    float: right;
+    background-color: #7FFF00;
+    width: 40%;
+    height: 650px;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 1600px){
+  .upcoming-section-two img{
+    width: 60%;
+    height: 520px;
+  } 
+
+  #description-two{
+    float: right;
+    background-color: #7FFF00;
+    width: 40%;
+    height: 520px;
+    margin: 0 auto;
+  }
+   div#description-two p{
+    font-size: 18px;
+  }
+
+  .learn-more-two{
+    font-size: 1em;
+    height: 40px;
+    width: 150px;
+    padding: 10px 10px;
+  } 
+}
+
+@media(max-width: 1000px){
+  .upcoming-section-two img{
+    width: 60%;
+    height: 450px;
+  } 
+
+  #description-two{
+    float: right;
+    background-color: #7FFF00;
+    width: 40%;
+    height: 450px;
+    margin: 0 auto;
+  }
+
+  div#description-two p{
+    font-size: 15px;
+  }
+
+  .learn-more-two{
+    font-size: 0.8em;
+  }
+}
+
+@media(max-width: 750px){
+  .upcoming-section-two img{
+    width: 60%;
+    height: 300px;
+  } 
+
+  #description-two{
+    float: right;
+    background-color: #7FFF00;
+    width: 40%;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  div#description-two p{
+    font-size: 12px;
+  }
+
+  .learn-more-two{
+    font-size: 0.7em;
+  }
 }
 
 /*---------------------*/
@@ -458,7 +631,7 @@ div#description-one p{
 }
 
 #description-three p{
-  font-size: 20px;
+  font-size: 30px;
   color: #111;
   text-align: center;
   padding-top: 200px;
@@ -474,6 +647,92 @@ div#description-one p{
   text-align: center;
   font-size: 1.15em;
   padding: 15px 15px 30px 30px;  
+}
+
+@media(max-width: 2400px){
+  .upcoming-section-three img{
+    width: 50%;
+    height: 650px;
+  } 
+
+  #description-three{
+    float: right;
+    background-color: #CDE7F0;
+    width: 50%;
+    height: 650px;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 1600px){
+  .upcoming-section-three img{
+    width: 50%;
+    height: 520px;
+  } 
+
+  #description-three{
+    float: right;
+    background-color: #CDE7F0;
+    width: 50%;
+    height: 520px;
+    margin: 0 auto;
+  }
+   div#description-three p{
+    font-size: 18px;
+  }
+
+  .learn-more-three{
+    font-size: 1em;
+    height: 40px;
+    width: 150px;
+    padding: 10px 10px;
+  } 
+}
+
+@media(max-width: 1000px){
+  .upcoming-section-three img{
+    width: 50%;
+    height: 450px;
+  } 
+
+  #description-three{
+    float: right;
+    background-color: #CDE7F0;
+    width: 50%;
+    height: 450px;
+    margin: 0 auto;
+  }
+
+  div#description-three p{
+    font-size: 15px;
+  }
+
+  .learn-more-three{
+    font-size: 0.8em;
+  }
+}
+
+@media(max-width: 750px){
+  .upcoming-section-three img{
+    width: 50%;
+    height: 300px;
+  } 
+
+  #description-three{
+    float: right;
+    background-color: #CDE7F0;
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  div#description-three p{
+    font-size: 12px;
+  }
+
+  .learn-more-three{
+    font-size: 0.7em;
+  }
 }
 
 /*---------------------*/
@@ -634,7 +893,7 @@ p.more a:hover {
   }
 
   .container{
-    width: 1200px;
+    width: 950px;
   }
 }
 
@@ -657,7 +916,30 @@ p.more a:hover {
   }
 
   .container{
-    width: 1000px;
+    width: 700px;
+  }
+}
+
+@media( max-width: 700px){
+  #image-nutriforce, #image-crossfit, #image-south-east{
+    height: 70px;
+    width: 120px;
+  }
+
+  #image-miami-lakes, #image-lifting-weights{
+    height: 120px;
+    width: 150px;
+    /*clear: both;*/
+    padding: 5%;
+  }
+
+  #div-nutriforce p, #div-crossfit p, #div-south-east p{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .container{
+    width: 500px;
   }
 }
 
