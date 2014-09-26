@@ -197,7 +197,7 @@ h1.centered{
 
 .latest-news p{
   line-height: 28px;
-  margin-top: 25px;
+  margin-top: 15px;
   /*margin-bottom: 30px;*/
   font-size: 1.18em;
 }
@@ -735,13 +735,6 @@ div#description-one p{
 
 /*---------------------*/
 /* RHINOCO MANAGEMENT BAR */
-/*
-.bar-fix{
-  clear: both;
-  height: 300px;
-  width: 100%;
-  background-color: #0063af;
-}*/
 
 .management-bar{
   text-align: center;
@@ -760,8 +753,32 @@ div#description-one p{
   font-size: 1.20em;
 }
 
-/*---------------------*/
+.management-bar{
+  text-align: center;
+  padding: 5%;
+  padding-top: 50px;
+  background-color: #0063af;
+  font-size: 1em;
+  color: white;
+}
 
+/*---------------------*/
+/* IN THE MEDIA BAR */
+
+.media-bar{
+  text-align: center;
+  padding: 5%;
+  padding-top: 50px;
+  background-color: #00af5f;
+  font-size: 1em;
+  color: black;
+}
+
+.media-bar p{
+  font-size: 1.20em;
+}
+
+/*---------------------*/
 #footerwrap {
   background: #2b2b2b;
   margin-top: 0px;
@@ -869,18 +886,25 @@ p.more a:hover {
 .latest-news > images {
   width: 100%;
 }
-  #image-miami-lakes, #image-lifting-weights{
-    height: 400px;
-    width: 650px;
-    padding: 2%;
-  }
-  #image-nutriforce, #image-crossfit, #image-south-east{
-    height: 300px;
-    width: 450px;
-    padding: 5%;
-  } 
+
+#image-miami-lakes, #image-lifting-weights{
+  height: 400px;
+  width: 650px;
+  padding: 2%;
+}
+#image-nutriforce, #image-crossfit, #image-south-east{
+  height: 300px;
+  width: 450px;
+  padding: 5%;
+} 
+
+#div-nutriforce p, #div-crossfit p, #div-south-east p{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 @media (max-width: 2400px ){
-  #image-miami-lakes, #image-lifting-weights{
+/*  #image-miami-lakes, #image-lifting-weights{
     height: 400px;
     width: 650px;
     padding: 2%;
@@ -889,14 +913,14 @@ p.more a:hover {
     height: 300px;
     width: 450px;
     padding: 5%;
-  } 
+  } */
   .container{
     width: 1400px;
   }
 }
 
-@media( max-width: 1400px){
-  #image-miami-lakes, #image-lifting-weights{
+@media( max-width: 1700px){
+/*  #image-miami-lakes, #image-lifting-weights{
     height: 350px;
     width: 500px;
     padding: 2%;
@@ -915,57 +939,100 @@ p.more a:hover {
   #div-nutriforce p, #div-crossfit p, #div-south-east p{
     padding-left: 10%;
     padding-right: 10%;
-  }
+  }*/
 
   .container{
-    width: 950px;
+    width: 1400px;
   }
 }
 
-@media( max-width: 950px){
+@media( max-width: 1400px){
   #image-nutriforce, #image-crossfit, #image-south-east{
-    height: 100px;
-    width: 150px;
+    height: 250px;
+    width: 375px;
+    padding: 2%;
   }
 
   #image-miami-lakes, #image-lifting-weights{
-    height: 150px;
-    width: 200px;
-    /*clear: both;*/
-    padding: 5%;
+    height: 350px;
+    width: 575px;
+    padding: 2%;
+    clear: both;
   }
 
-  #div-nutriforce p, #div-crossfit p, #div-south-east p{
+/*  #div-miami-lakes, #div-lifting-weights{
+    height: 350px;
+    width: 575px;
+    padding: 2%;
+  }*/
+
+  .big-two-images{
+    clear: both;
+  }
+
+  .small-three-images{
+    clear: both;
+  }
+
+/*  #div-nutriforce p, #div-crossfit p, #div-south-east p{
     padding-left: 20px;
     padding-right: 20px;
-  }
+  }*/
 
   .container{
-    width: 700px;
+    width: 1200px;
   }
 }
 
-@media( max-width: 700px){
+@media( max-width: 1200px){
   #image-nutriforce, #image-crossfit, #image-south-east{
-    height: 70px;
-    width: 120px;
+    height: 250px;
+    width: 100%;
+    /*padding: 2%;*/
   }
 
   #image-miami-lakes, #image-lifting-weights{
-    height: 120px;
-    width: 150px;
-    /*clear: both;*/
+    height: 500px;
+    width: 100%;
     padding: 5%;
+    /*margin-bottom: 40px;*/
   }
 
-  #div-nutriforce p, #div-crossfit p, #div-south-east p{
-    padding-left: 15px;
-    padding-right: 15px;
+  #div-miami-lakes, #div-lifting-weights{
+    height: 500px;
+    width: 820px;
+    clear: both;
+    margin-bottom: 50px;
+  }
+
+  #div-miami-lakes p, #div-lifting-weights p{
+    margin-top: -20px;
+  }
+
+  #div-crossfit, #div-nutriforce, #div-south-east{
+    margin: none;
+    /*padding: 2%;*/
+    width: 400px;
+  }
+
+  .big-two-images{
+    clear: both;
+    margin-top: -40px;
+  }
+
+  .small-three-images{
+    clear: both;
+    margin-bottom: -120px;
+  }
+
+  .center-container{
+    margin-left: -40px;
   }
 
   .container{
-    width: 500px;
+    width: 800px;
   }
+  
 }
 
 
