@@ -8,8 +8,8 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-weight: 400;
-  font-family: "Maven Pro";
+  /*font-weight: 400;*/
+  font-family: "Open Sans";
 }
 html, button, input, select, textarea {
   color: #222;
@@ -95,7 +95,7 @@ body {
   /*  background-color: rgba(218,218,218,0.8);*/
   background-color: #FFF;
   padding: 10px 0;
-  font-weight: 600;
+  font-weight: 400;
 }
 /*.navbar > .container {
   padding: 20px 0;
@@ -146,7 +146,7 @@ body {
 }
 
 .navbar-nav > li{
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2em;
 }
 
@@ -313,18 +313,18 @@ a:before, a:after {
   color: #ffffff;
   margin-top: 70px;
   padding-bottom: 10px;
-  font-size: 100px;
-  text-shadow: 2px 2px 2px #000;
+  font-size: 120px;
+  /*text-shadow: 2px 2px 2px #000;*/
 }
 #headerwrap p {
   color: #ffffff;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 50px;
+  font-weight: 300;
   text-align: center;
   line-height: 40px;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   margin-left: 15px;
-  text-shadow: 1px 1px 1px #000;
+  /*text-shadow: 1px 1px 1px #000;*/
 }
 
 #headerwrap #header-over-video{
@@ -1022,7 +1022,7 @@ p.more a:hover {
 
   .small-three-images{
     clear: both;
-    margin-bottom: -120px;
+    margin-bottom: 120px;
   }
 
   .center-container{
