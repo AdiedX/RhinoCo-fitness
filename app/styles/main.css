@@ -344,17 +344,13 @@ a:before, a:after {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.content-center{
+/*.content-center{
   margin: 0 auto;
   padding: 0 10px;
   height: 40px;
   width: 100%;
   background-color: black;
-  /*opacity: 0.3;*/
-
-/*  float: none;
-  position: relative;*/
-}
+}*/
 
 header{
   position: absolute;
