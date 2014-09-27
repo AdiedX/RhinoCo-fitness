@@ -92,8 +92,8 @@ body {
   background: #2b2b2b;
 }
 .navbar {
-  /*  background-color: rgba(218,218,218,0.8);*/
-  background-color: #FFF;
+    background-color: rgba(218,218,218,0.0);
+  /*background-color: #FFF;*/
   padding: 10px 0;
   font-weight: 400;
 }
@@ -285,9 +285,10 @@ a:before, a:after {
    ========================================================================== */
 
 #headerwrap {
-  background: url(../images/header_bg.gif) no-repeat center top;
+  /*background: url(../images/header_bg.gif) no-repeat center top;*/
+  /*background-color: black;*/
   margin-top: -50px;
-  padding-top: 120px;
+  /*padding-top: 120px;*/
   text-align: center;
   background-attachment: relative;
   background-position: center center;
@@ -321,17 +322,64 @@ a:before, a:after {
   font-size: 50px;
   font-weight: 300;
   text-align: center;
-  line-height: 40px;
-  letter-spacing: 5px;
-  margin-left: 15px;
+  line-height: 80px;
+  letter-spacing: 1px;
+  /*margin-left: 15px;*/
   /*text-shadow: 1px 1px 1px #000;*/
 }
 
-#headerwrap #header-over-video{
-  font-size: 3.6em;
+#header-over-video, #subheader-over-video{
+  text-align: center;
+  width: 100%;
 }
 
+#headerwrap #header-over-video{
+  margin-top: 300px;
+  font-size: 6em;
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#headerwrap #subheader-over-video{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-center{
+  margin: 0 auto;
+  padding: 0 10px;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  /*opacity: 0.3;*/
+
+/*  float: none;
+  position: relative;*/
+}
+
+header{
+  position: absolute;
+  width: 100%;
+}
+
+#wrapper{
+  clear: both;
+}
+
+#wrapper video{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*#wrapper div{
+  position: absolute;
+  left: 200;
+  top: 2000;
+}*/
+
+
 .greywrap {
+  position: relative;
   background: #002233;
   /*margin-top: 40px;*/
   padding-top: 45px;
@@ -362,6 +410,17 @@ a:before, a:after {
 }
 
 /* MAIN PAGE */
+
+header{
+  position: absolute;
+  text-align: center;
+  top: 50;
+  left: 50;
+}
+
+video{
+  width: 100%;
+}
 
 /* Upcoming Projects Section One */
 .upcoming-projects-bar{
