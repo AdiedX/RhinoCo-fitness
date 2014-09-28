@@ -91,12 +91,27 @@ body {
 .modal-footer {
   background: #2b2b2b;
 }
+
 .navbar {
-    background-color: rgba(218,218,218,0.0);
+    background-color: rgba(218,218,218,0);
   /*background-color: #FFF;*/
   padding: 10px 0;
   font-weight: 400;
 }
+
+/* Classes for transparent to opaque navbar transition */
+/*------------------------------------------------------*/
+.navbar-transition-color{
+  color: black;
+}
+
+.navbar-transition-bg{
+  background-color: white;
+}
+/*------------------------------------------------------*/
+
+
+
 /*.navbar > .container {
   padding: 20px 0;
 }*/
@@ -109,13 +124,19 @@ body {
   margin-right: 0.5em;
   font-size: 1.7em;
   font-weight: 400;
-  color: #333;
+  color: #DDD;
+}
+
+.navbar-nav a.smoothScroll{
+
 }
 
 .navbar-logo{
   margin-left: -25px;
-  color: #333;
+  color: #DDD;
+  float: left;
 }
+
 
 .navbar-toggle {
   position: relative;
@@ -141,7 +162,7 @@ body {
   border: 0px solid transparent;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  background-color: #16a085;
+  background-color: red;
   color: white;
 }
 
@@ -151,7 +172,11 @@ body {
 }
 
 .navbar-nav a{
-  color: #333;
+  color: #DDD;
+}
+
+.navbar-nav{
+  float: right;
 }
 
 hr {
@@ -331,17 +356,24 @@ a:before, a:after {
 #header-over-video, #subheader-over-video{
   text-align: center;
   width: 100%;
+  padding: 1%;
 }
 
 #headerwrap #header-over-video{
   margin-top: 300px;
-  font-size: 6em;
-  padding: 2%;
+  margin-bottom: 0;
+  font-size: 5em;
+  font-weight: 100;
   background-color: rgba(0, 0, 0, 0.5);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;  
 }
 
 #headerwrap #subheader-over-video{
+  font-size: 3em;
   background-color: rgba(0, 0, 0, 0.5);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;  
 }
 
 /*.content-center{
@@ -405,7 +437,9 @@ header{
   color: #DDD;
 }
 
+/*============*/
 /* MAIN PAGE */
+/*============*/
 
 header{
   position: absolute;
@@ -970,7 +1004,7 @@ p.more a:hover {
     padding: 5%;
   } */
   .container{
-    width: 1400px;
+    width: 1600px;
   }
 }
 

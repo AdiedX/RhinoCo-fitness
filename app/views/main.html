@@ -8,8 +8,7 @@
     </div>
     <div class="content-center">
         <header>
-            <p id="header-over-video">RHINOCO FITNESS</p>
-            <br>
+            <p id="header-over-video">Rhinoco Fitness</p>
             <p id="subheader-over-video">Defining the full circle of wellness</p>
         </header>
     </div>
@@ -169,7 +168,24 @@
 </div>
 
 
+<script>
 
+    var anchorPoint = $('video').offset().top + $('video').height();
+    console.log('anchorPoint: ' + anchorPoint);
+    $(window).on('scroll', function(){
+      var scrollPosition = Math.round($(window).scrollTop());
+      console.log('scrollPosition: ' + scrollPosition);
+      if(scrollPosition > anchorPoint){
+        $('.navbar').addClass('navbar-transition-bg');
+        $('.transition').css('color', 'black');
+      } else{
+        $('.navbar').removeClass('navbar-transition-bg');
+        $('.transition').css('color', 'white');        
+      }
+
+    });
+
+</script>
 
 
 
