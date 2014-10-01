@@ -499,7 +499,7 @@ div#description-one p{
   color: #BBB;
   text-align: center;
   font-size: 1.25em;
-  padding: 15px 15px;
+  padding: 8px 15px;
 }
 
 @media(max-width: 2400px){
@@ -508,12 +508,15 @@ div#description-one p{
     height: 1200px;
   } 
 
-  #description-one{
-    float: right;
-    background-color: black;
-    width: 50%;
-    height: 650px;
-    margin: 0 auto;
+  .description-one{
+    position: absolute;
+    color: black;
+    margin-left: 750px;
+    margin-top: 30px;
+    font-size: 1.5em;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 400;  
   }
 }
 
@@ -524,21 +527,14 @@ div#description-one p{
   } 
 
   #description-one{
-    float: right;
-    background-color: black;
-    width: 50%;
-    height: 520px;
-    margin: 0 auto;
-  }
-   div#description-one p{
-    font-size: 18px;
+
   }
 
   .learn-more-one{
     font-size: 1em;
     height: 40px;
     width: 150px;
-    padding: 10px 10px;
+    padding: 8px 10px;
   } 
 }
 
@@ -549,15 +545,7 @@ div#description-one p{
   } 
 
   #description-one{
-    float: right;
-    background-color: black;
-    width: 50%;
-    height: 450px;
-    margin: 0 auto;
-  }
 
-  div#description-one p{
-    font-size: 15px;
   }
 
   .learn-more-one{
@@ -572,15 +560,7 @@ div#description-one p{
   } 
 
   #description-one{
-    float: right;
-    background-color: black;
-    width: 50%;
-    height: 300px;
-    margin: 0 auto;
-  }
 
-  div#description-one p{
-    font-size: 12px;
   }
 
   .learn-more-one{
@@ -598,20 +578,6 @@ div#description-one p{
   /*float: right;*/
 }
 
-#description-two{
-  float: left;
-  background-color: #7FFF00;
-  width: 40%;
-  height: 520px;
-}
-
-#description-two p{
-  font-size: 30px;
-  color: #111;
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 20px;
-}
 
 .learn-more-two{
   margin: 0px auto;
@@ -630,13 +596,26 @@ div#description-one p{
     height: 1000px;
   } 
 
-  #description-two{
-    float: right;
-    background-color: #7FFF00;
-    width: 40%;
-    height: 650px;
-    margin: 0 auto;
+  .description-two{
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 1.9em;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 300;
+    margin-top: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
   }
+
+/*  .des-two-container{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    margin-top: 60px;
+  }*/
 }
 
 @media(max-width: 1600px){
@@ -646,14 +625,7 @@ div#description-one p{
   } 
 
   #description-two{
-    float: right;
-    background-color: #7FFF00;
-    width: 40%;
-    height: 520px;
-    margin: 0 auto;
-  }
-   div#description-two p{
-    font-size: 18px;
+
   }
 
   .learn-more-two{
@@ -671,15 +643,7 @@ div#description-one p{
   } 
 
   #description-two{
-    float: right;
-    background-color: #7FFF00;
-    width: 40%;
-    height: 450px;
-    margin: 0 auto;
-  }
 
-  div#description-two p{
-    font-size: 15px;
   }
 
   .learn-more-two{
@@ -694,15 +658,7 @@ div#description-one p{
   } 
 
   #description-two{
-    float: right;
-    background-color: #7FFF00;
-    width: 40%;
-    height: 300px;
-    margin: 0 auto;
-  }
 
-  div#description-two p{
-    font-size: 12px;
   }
 
   .learn-more-two{
@@ -720,20 +676,7 @@ div#description-one p{
   float: left;
 }
 
-#description-three{
-  float: right;
-  background-color: #CDE7F0;
-  width: 45%;
-  height: 520px;
-}
 
-#description-three p{
-  font-size: 30px;
-  color: #111;
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 20px;
-}
 
 .learn-more-three{
   margin: 0px auto;
@@ -752,12 +695,18 @@ div#description-one p{
     height: 1000px;
   } 
 
-  #description-three{
-    float: right;
-    background-color: #CDE7F0;
-    width: 50%;
-    height: 650px;
+  .description-three{
     margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 1.9em;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-left: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -767,15 +716,8 @@ div#description-one p{
     height: 800px;
   } 
 
-  #description-three{
-    float: right;
-    background-color: #CDE7F0;
-    width: 50%;
-    height: 520px;
-    margin: 0 auto;
-  }
-   div#description-three p{
-    font-size: 18px;
+  .description-three{
+
   }
 
   .learn-more-three{
@@ -792,16 +734,8 @@ div#description-one p{
     height: 600px;
   } 
 
-  #description-three{
-    float: right;
-    background-color: #CDE7F0;
-    width: 50%;
-    height: 450px;
-    margin: 0 auto;
-  }
+  .description-three{
 
-  div#description-three p{
-    font-size: 15px;
   }
 
   .learn-more-three{
@@ -815,16 +749,8 @@ div#description-one p{
     height: 500px;
   } 
 
-  #description-three{
-    float: right;
-    background-color: #CDE7F0;
-    width: 50%;
-    height: 300px;
-    margin: 0 auto;
-  }
+  .description-three{
 
-  div#description-three p{
-    font-size: 12px;
   }
 
   .learn-more-three{
@@ -1067,8 +993,8 @@ p.more a:hover {
   }
 
   #div-nutriforce p, #div-crossfit p, #div-south-east p{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .container{
@@ -1280,10 +1206,11 @@ p.more a:hover {
   .small-three-images{
     clear: both;
     margin-bottom: 120px;
+    margin-left: 23px;
   }
 
   .center-container{
-    /*margin-left: -40px;*/
+    /*margin-left: 10px;*/
   }
 
   .container{
