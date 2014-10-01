@@ -360,13 +360,17 @@ a:before, a:after {
 }
 
 #headerwrap #header-over-video{
-  margin-top: 300px;
+  /* margin-top originall was 300 px*/
+  margin-top: 240px; 
+  background-color: black; 
   margin-bottom: 0;
-  font-size: 4em;
-  font-weight: 100;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;  
+  height: 150px;
+  width: 500px;
+  /*font-size: 5em;*/
+  /*font-weight: 100;*/
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+/*  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;  */
 }
 
 #headerwrap #subheader-over-video{
@@ -573,7 +577,7 @@ div#description-one p{
 /* Upcoming Projects Section Two*/
 
 .upcoming-section-two img{
-  height: 1000px;
+  height: 800px;
   width: 100%;
   /*float: right;*/
 }
@@ -593,7 +597,7 @@ div#description-one p{
 @media(max-width: 2400px){
   .upcoming-section-two img{
     width: 100%;
-    height: 1000px;
+    height: 800px;
   } 
 
   .description-two{
@@ -621,7 +625,7 @@ div#description-one p{
 @media(max-width: 1600px){
   .upcoming-section-two img{
     width: 100%;
-    height: 800px;
+    height: 700px;
   } 
 
   #description-two{
@@ -671,7 +675,7 @@ div#description-one p{
 /* Upcoming Projects Section Three*/
 
 .upcoming-section-three img{
-  height: 1000px;
+  height: 800px;
   width: 100%;
   float: left;
 }
@@ -692,7 +696,7 @@ div#description-one p{
 @media(max-width: 2400px){
   .upcoming-section-three img{
     width: 100%;
-    height: 1000px;
+    height: 800px;
   } 
 
   .description-three{
@@ -713,7 +717,7 @@ div#description-one p{
 @media(max-width: 1600px){
   .upcoming-section-three img{
     width: 100%;
-    height: 800px;
+    height: 600px;
   } 
 
   .description-three{
@@ -731,7 +735,7 @@ div#description-one p{
 @media(max-width: 1000px){
   .upcoming-section-three img{
     width: 100%;
-    height: 600px;
+    height: 700px;
   } 
 
   .description-three{
@@ -785,6 +789,12 @@ div#description-one p{
   background-color: #0063af;
   font-size: 1em;
   color: white;
+}
+
+.management-images img{
+  clear: both;
+  height: 600px;
+  width: 100%;
 }
 
 /*---------------------*/
